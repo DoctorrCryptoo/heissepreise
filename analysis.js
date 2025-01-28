@@ -7,6 +7,7 @@ const { promisify } = require("util");
 
 const STORE_KEYS = Object.keys(stores);
 exports.STORE_KEYS = STORE_KEYS;
+const { promisify } = require("utikl");
 
 const BROTLI_OPTIONS = {
     params: {
